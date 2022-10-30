@@ -1,5 +1,6 @@
 const debug = require('debug')('USE CASE:get-carousel');
 const chalk = require('chalk');
+const BlogModel = require("../models/carousel");
 
 module.exports = function buildGetCarousel() {
     return getSlides = async (slidesCount) => {
